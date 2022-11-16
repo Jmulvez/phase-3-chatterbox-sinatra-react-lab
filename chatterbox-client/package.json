@@ -12,9 +12,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "server": "json-server --watch db.json --port 4000",
-    "start": "react-scripts -- openssl-legacy-provider start",
-    "build": "react-scripts -- openssl-legacy-provider build",
+    "server": "json-server --watch db.json --port 9292",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
